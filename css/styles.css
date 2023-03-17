@@ -1,14 +1,27 @@
 html{
     height: 95%;
 }
+
+.atag{
+    color : blueviolet;
+}
+.atag:hover{
+    text-decoration: none;
+    cursor:pointer;
+    color:#ED3D5F;
+}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 #title{
+    background-image: url("https://whataftercollege.com/wp-content/uploads/2019/03/cover-image-1-1024x535.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color :#ED3D5F;
     background-blend-mode: multiply
 }
 body{
     font-family: 'Montserrat';
     height: 40%;
+    
 }
 h3{
     font-family: 'Montserrat';
@@ -97,13 +110,17 @@ li{
     background-color: white;
     z-index: 1;
 }
-#testimonials{
+
+.testimonials{
     position: relative;
     bottom: 270px;
     font-family: 'Montserrat';
-    background-color:#EF7468 ;
+    background-color: darkgrey;
     color :#fff;
-
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210810/pngtree-dark-red-abstract-smoke-cloud-dark-color-background-image_759871.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(47, 21, 21);
  
     font-weight: bold;
     text-align: center;
@@ -161,7 +178,7 @@ li{
     margin: 0 6px;
 }
 #cta{
-    background-color: #FF4C68;
+
     color:#fff;
     padding-top: 100px;
     padding-bottom: 160px;
