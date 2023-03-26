@@ -10,12 +10,16 @@ html{
     cursor:pointer;
     color:#ED3D5F;
 }
+#REL{
+    font-size:30px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 #title{
-    background-image: url("https://whataftercollege.com/wp-content/uploads/2019/03/cover-image-1-1024x535.jpg");
+    width: 100%;
+    background-image: url("https://iitr.ac.in/sfme2022/img/IITR_JT.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color :#ED3D5F;
+    background-size:contain;
+    
     background-blend-mode: multiply
 }
 body{
@@ -98,10 +102,10 @@ li{
     margin-top:5%;
 
 }
-#doggy{
+/* #doggy{
     transform : rotate(25deg);
     z-index: -1;
-}
+} */
 #firstr{
     text-align: center;
     position: relative;
@@ -136,20 +140,13 @@ li{
     bottom: 20px;
 }
 @media only screen and (max-width: 1106px) {
-    #doggy{
-        position:static;
-        transform : rotate(0); 
-        padding-top: 30px;
-    }
-    #firstr{
+    
+    /* #firstr{
         position: relative;
         top: 300px;
-    }
-    #pricing{
-        position: relative;
-        top: 300px;
-    }
-    #testimonials{
+    } */
+    
+    /* #testimonials{
         position: relative;
         top: 270px;
     }
@@ -163,9 +160,10 @@ li{
     #footer{
         position: relative;
         top: 300px;
-    }
+    } */
     h1#Heading{
         text-align: center;
+        visibility: hidden;
     }
 
 }
